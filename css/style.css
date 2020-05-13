@@ -1,0 +1,82 @@
+
+/*body stuff*/
+body {
+    margin: 30px;
+}
+
+ul {
+    float: right;
+}
+li {
+    display: inline-block;
+    padding: 30px;
+    padding-top: 45px;
+}
+
+#logo {
+    padding-top: 10px
+}
+
+nav {
+    display: inline;
+}
+
+.hero {
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: normal;
+}
+
+#main_photo {
+    width: 200px;
+    border-right: black solid 5px;
+    border-bottom: black solid 5px;
+    padding: 10px;
+    float: right;
+}
+/* case study stuff */
+.container {
+    padding: 200px;
+}
+
+.display_left {
+    width: 700px;
+    float: left;
+}
+
+.display_right {
+    width: 700px;
+    float: right;
+}
+
+
+
+
+/* footer stuff */
+
+footer {
+    background-color: #CCDEED;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.icon{
+    width: 45px; 
+}
+
+.container_footer {
+    padding: 50px;
+}
+
