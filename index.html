@@ -1,90 +1,131 @@
 <html>
+
 <head>
     <title>Timothy Quoe's portfolio page</title>
 
-    <link rel="stylesheet" type="text/css"  href="css/style.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-<!--Header-->
+    <!--Header-->
     <header>
         <nav>
-                <img src="images/logo.png" id="logo">
-            
-                    <ul>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Contact</li>
-                        <li>Resume</li>
-                    </ul>
+            <img src="images/logo.png" id="logo" class="link">
 
-
-
+            <ul>
+                <li class="underline">Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Resume</li>
+            </ul>
         </nav>
     </header>
 
-<!--Main-->
-<!--Section 1-->
+    <!--Main-->
+    <!--Section 1-->
     <section class="hero">
-        <img id=main_photo src="images/main_photo.png">
 
-        <h1>Timothy Quoe</h1>
-        <h3>User experiance/ User interface designer</h3>
-        <h2>Open and considerate by nature and dependable by design</h2>
 
         <div>
-            <h2>Design annotations</h2>
-            <label>
-                off
-            </label>
+            <div>
+                <h1>Timothy Quoe</h1>
+                <h3>User experiance/ User interface designer</h3>
+                <h2><span class="bold">Open</span> and <span class="bold">considerate</span> by nature and <span class="bold">dependable</span> by design.</h2>
+            </div>
+            <!--toggle-->
+
+            <div class="toggle_box">
+                <p class="annotation_text">Design annotations</p>
+                <label class="switch round">
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                  </label>
+            </div>
+            <p class="mobile_only">**Only available during tablet and desktop view points.</p>
+            <!--toggle-->
+        </div>
+        <div class="center">
+            <img id=main_photo src="images/main_photo.png">
+        </div>
+
+    </section>
+    <!--Section 2-->
+    <section class="case_studies">
+        <div class="container">
+
+            <div>
+                <img class="display_left link" src="images/FDA.png">
+            </div>
+
+            <div class="summary border_right">
+                <p class="header">FDA governement website redesign — case study.
+                </p>
+                <p>
+                    The FDA website displays issues in consistency, hierarchy, and usability. I worked with a partner to
+                    make consistent use of cards and buttons, as well as changes in how one would navigate the website.
+                </p>
+                <p class="link">
+                    Read more
+                </p>
+            </div>
+        </div>
+        <div class="container tab_top">
+
+            <div class="summary border_left">
+                <p class="header">Project Linus non-profit website redesign — case study.
+                </p>
+                <p>
+                    The Project Linus website lacks proper messaging and transparency. I worked with a team of 4 to
+                    provide
+                    a more cohesive theme and increase ease of use.
+                </p>
+                <p class="link">
+                    Read more
+                </p>
+            </div>
+            <div>
+                <img class="display_right link" src="images/project_linus.png">
+            </div>
         </div>
     </section>
-<!--Section 2-->
-    <section>
-    <div class="container">
-        <img class="display_left" src="images/FDA.png">
-        <p class="header">FDA governement  website redesign — case study.
-        </p>
-        <p>
-            The FDA website displays issues in consistency, hierarchy, and usability. I worked with a partner to make consistent use of cards and buttons, as well as changes in how one would navigate the website.
-        </p>
-        <p class="link">
-            Read more
-        </p>
-    </div>
-    <div class="container">
-        <img class="display_right" src="images/project_linus.png">
-        <p class="header">Project Linus non-profit website redesign — case study.
-        </p>
-        <p>
-            The Project Linus website lacks proper messaging and transparency. I worked with a team of 4 to provide a more cohesive theme and increase ease of use.  
-        </p>
-        <p class="link">
-            Read more
-        </p>
-    </div>
-    </section>
-<!--Footer-->
+    <!--Footer-->
     <footer>
-    <ul>
-        <div class="container_footer">
-        <img class="icon"  src="images/icons/phone.png">
-        <li>Phone</li>
-        <li>(626)214-6610</li>
-        </div>
-
-        <img class="icon" src="images/icons/linkedin.png">
 
         <div class="container_footer">
-        <img class="icon"  src="images/icons/email.png">
-        <li>Email</li>
-        <li>tquoe001@ucr.edu</li>
+            <div>
+                <img class="icon" src="images/icons/phone.png">
+            </div>
+            <div>
+                <p class="bold">Phone:</p>
+                <p>(626)214-6610</p>
+            </div>
         </div>
-    </ul>
+
+        <div>
+            <img class="icon link" src="images/icons/linkedin.png">
+        </div>
+
+        <div class="container_footer">
+            <div>
+                <img class="icon" src="images/icons/email.png">
+            </div>
+
+            <div>
+                <p class="bold">Email:</p>
+                <p>tquoe001@ucr.edu</p>
+            </div>
+        </div>
+
     </footer>
 
 
-    
+
 </body>
 
 
